@@ -60,4 +60,16 @@ main .container span{
     transition: all 0.3s ease-in-out;
     margin-top: 5rem;
 }
+@media (max-width: 768px){
+    .nav-center{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .nav-links{
+        margin-left: 0%;
+    }
+    .container .btn{
+        padding: 1rem 0;
+    }
+}
 /* 🛑 */
