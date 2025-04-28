@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: slategrey;
+}
+/*  BARRA DE NAVEGAÇÃO ⬇⬇  */
+.nav-center{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    gap: 10rem;
+    box-shadow: 1px 1px 2px 2px black;
+}
+.nav-center h4{
+    font-size: 2rem;
+    font-family: 'Coral Pixels', sans-serif;
+    margin-right: 10%;
+}
+.nav-center a{
+    text-decoration: none;
+    font-family:'Impact', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+}
+.nav-links{
+    display: flex;
+    gap: 5rem;
+    margin-left: 35%; 
+}
+/* 🛑 */
+/* BOTÃO E BACKGROUND ⬇⬇*/
+main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+main .container h2{
+    background-color: #ffffff;
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+    color: rgb(0, 0, 0);
+}
+main .container span{
+    color: rgba(180, 180, 206, 0.877)
+}
+.container .btn{
+    background-color: #f0f0f0;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 2px black;
+    transition: all 0.3s ease-in-out;
+    margin-top: 5rem;
+}
+/* 🛑 */
